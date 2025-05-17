@@ -153,7 +153,7 @@ class AmeActions(loader.Module):
         gifts = ["🎁", "🎀", "🎊", "🎉", "💝"]
         await self.rp_action(
             message,
-            f"подарил(а) {random.choice(gifts)}",
+            f"подарил(а) подарок{random.choice(gifts)}",
             "<emoji document_id=5420316241916290636>🎈</emoji>",
             "❌ | <b>Сам себе подарок купи.</b>"
         )
